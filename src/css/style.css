@@ -1,0 +1,182 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    background-color: #C8A2C8 ;
+    text-shadow: #000000;
+    font-family: "Roboto", sans-serif;
+    
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+img{
+    border-radius: 18px;
+    box-shadow: 0  6px 12px rgb(0, 0, 0, 0.8);
+    border: 2px outset white;
+    margin: 1%;
+}
+
+.imagens{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.imagem-inicial{
+    width: 100px;
+    height: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+h1{
+    color: rgb(89, 1, 252);
+}
+
+.titulo-div{
+    color:#000000;
+}
+
+.erro{
+    color: red;
+}
+
+p{
+    display: flex;
+    color:rgb(107, 29, 252);
+    font-size: 24px;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 16px;
+    background-color: blueviolet;
+    gap: 10px;
+    height: 75%;
+    width: 50%;
+}
+
+div input{
+    font-size: 16px;
+    width: 70%;
+    height: 20%;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+div button{
+    font-size: 18px;
+    width: 50%;
+    height: 25%;
+    border: 2px solid black;
+    border-radius: 16px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.imagem-comeco{
+    width: 200px;
+    height: 200px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 75px;
+    list-style: none;
+}
+
+li{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #33008F;
+    text-align: start;
+    font-size: 24px;
+    gap: 15px;
+    padding-bottom: 20px;
+    
+}
+
+li img{
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+}
+
+.primeiro-dia{
+    height: 18.75rem;
+    width: 75%;
+}
+
+.voltando-casa{
+    width: 75%;
+    height: 18.75rem;
+    margin-left: 10%;
+}
+
+.escadaria{
+    width: 75%;
+    height: 18.75rem;
+}
+
+.pos-aula{
+    width: 90%;
+    height: 18.75rem;
+}
+
+.pos-curso{
+    width: 21.875rem;
+    height: 18.75rem;
+
+}
+
+.dupla{
+    width: 15.625rem;
+    height: 18.75rem;
+}
+
+.nos-tres{
+    width: 250px;
+    height: 18.75rem;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: #33008F;
+}
+footer p{
+    color: #250364;
+}
